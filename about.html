@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>여의도 마사지 링크 | 정보 안내</title>
+    <meta name="description" content="여의도 마사지 링크 이용 가이드, 가격 안내, 위치 정보. 스웨디시부터 림프 케어까지, 여의도 마사지의 모든 것.">
+    <meta name="keywords" content="여의도 마사지, 여의도 마사지 링크, 여의도 스웨디시 가격, 여의도 마사지 위치, 여의도 림프 케어 정보">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-mono-chrome">
+    <link rel="canonical" href="https://t3b07-yd-massage-link-2.vercel.app/info">
+    <meta property="og:title" content="여의도 마사지 링크 | 정보 안내">
+    <meta property="og:description" content="여의도 마사지 링크 이용 가이드, 가격 안내, 위치 정보. 스웨디시부터 림프 케어까지, 여의도 마사지의 모든 것.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://t3b07-yd-massage-link-2.vercel.app/info">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="여의도 마사지 링크 | 정보 안내">
+    <meta name="twitter:description" content="여의도 마사지 링크 이용 가이드, 가격 안내, 위치 정보. 스웨디시부터 림프 케어까지, 여의도 마사지의 모든 것.">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f8f8f8;
+            color: #1d1d1f;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        a {
+            color: #1d1d1f;
+            text-decoration: none;
+            transition: opacity 0.2s ease;
+        }
+        a:hover {
+            opacity: 0.7;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            background: #ffffff;
+            border-bottom: 1px solid #e5e5e5;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: #1d1d1f;
+        }
+        .logo span {
+            color: #86868b;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 24px;
+        }
+        nav a {
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: #1d1d1f;
+            padding: 8px 0;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.2s ease;
+        }
+        nav a:hover {
+            border-bottom: 2px solid #1d1d1f;
+            opacity: 1;
+        }
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 6px;
+            cursor: pointer;
+            padding: 8px;
+            background: none;
+            border: none;
+        }
+        .hamburger span {
+            display: block;
+            width: 28px;
+            height: 2px;
+            background: #1d1d1f;
+            transition: all 0.3s ease;
+        }
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+            nav ul {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: #ffffff;
+                flex-direction: column;
+                padding: 20px;
+                gap: 16px;
+                border-bottom: 1px solid #e5e5e5;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            }
+            nav ul.active {
+                display: flex;
+            }
+            nav a {
+                font-size: 1.1rem;
+                padding: 12px 0;
+                border-bottom: 1px solid #f0f0f0;
+            }
+            nav a:hover {
+                border-bottom: 1px solid #1d1d1f;
+            }
+            .header-inner {
+                position: relative;
+            }
+        }
+        .hero-section {
+            padding: 60px 0 40px;
+            text-align: center;
+        }
+        .hero-section h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            letter-spacing: -1px;
+            margin-bottom: 16px;
+            line-height: 1.2;
+        }
+        .hero-section p {
+            font-size: 1.2rem;
+            color: #86868b;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+            padding: 40px 0;
+        }
+        @media (max-width: 768px) {
+            .info-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+                padding: 24px 0;
+            }
+            .hero-section h1 {
+                font-size: 2rem;
+            }
+            .hero-section p {
+                font-size: 1rem;
+                padding: 0 16px;
+            }
+        }
+        .info-card {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 32px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            border: 1px solid #e5e5e5;
+        }
+        .info-card h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            letter-spacing: -0.3px;
+        }
+        .info-card ul {
+            list-style: none;
+            padding: 0;
+        }
+        .info-card li {
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 1rem;
+            color: #515154;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .info-card li:last-child {
+            border-bottom: none;
+        }
+        .info-card .label {
+            font-weight: 600;
+            color: #1d1d1f;
+        }
+        .info-card .value {
+            color: #86868b;
+        }
+        .price-tag {
+            font-weight: 700;
+            color: #1d1d1f;
+            font-size: 1.1rem;
+        }
+        .faq-section {
+            padding: 40px 0 60px;
+        }
+        .faq-section h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 40px;
+            letter-spacing: -0.5px;
+        }
+        .faq-item {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 24px 32px;
+            margin-bottom: 16px;
+            border: 1px solid #e5e5e5;
+        }
+        .faq-item h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #1d1d1f;
+        }
+        .faq-item p {
+            font-size: 0.95rem;
+            color: #515154;
+            line-height: 1.7;
+        }
+        .cta-section {
+            text-align: center;
+            padding: 60px 0;
+            background: #f0f0f0;
+            border-radius: 16px;
+            margin: 20px 0 40px;
+        }
+        .cta-section h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+        .cta-section p {
+            font-size: 1.1rem;
+            color: #515154;
+            margin-bottom: 24px;
+        }
+        .tel-link {
+            display: inline-block;
+            background: #1d1d1f;
+            color: #ffffff;
+            padding: 16px 48px;
+            border-radius: 40px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+        .tel-link:hover {
+            background: #515154;
+            opacity: 1;
+        }
+        footer {
+            background: #ffffff;
+            border-top: 1px solid #e5e5e5;
+            padding: 24px 20px;
+            text-align: center;
+            color: #86868b;
+            font-size: 0.85rem;
+            margin-top: auto;
+        }
+    </style>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="/" class="logo">여의도 마사지 <span>링크</span></a>
+            <button class="hamburger" aria-label="메뉴 열기" onclick="this.nextElementSibling.classList.toggle('active')">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="/">홈</a></li>
+                    <li><a href="/info">정보</a></li>
+                    <li><a href="/services">서비스</a></li>
+                    <li><a href="/review">리뷰</a></li>
+                    <li><a href="/contact">연락처</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero-section">
+            <h1>여의도 마사지 링크<br>이용 가이드</h1>
+            <p>처음 오시는 분들을 위한 상세 정보. 가격, 위치, 준비물까지 다 알려드려요.</p>
+        </section>
+
+        <div class="info-grid">
+            <div class="info-card">
+                <h2>📍 위치 & 오시는 길</h2>
+                <ul>
+                    <li>
+                        <span class="label">주소</span>
+                        <span class="value">서울 영등포구 여의도동 23-7</span>
+                    </li>
+                    <li>
+                        <span class="label">지하철</span>
+                        <span class="value">여의도역 3번 출구 도보 3분</span>
+                    </li>
+                    <li>
+                        <span class="label">버스</span>
+                        <span class="value">여의도환승센터 하차</span>
+                    </li>
+                    <li>
+                        <span class="label">주차</span>
+                        <span class="value">건물 지하 주차장 (2시간 무료)</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="info-card">
+                <h2>🕐 운영 시간</h2>
+                <ul>
+                    <li>
+                        <span class="label">평일</span>
+                        <span class="value">10:00 - 22:00</span>
+                    </li>
+                    <li>
+                        <span class="label">토요일</span>
+                        <span class="value">10:00 - 20:00</span>
+                    </li>
+                    <li>
+                        <span class="label">일요일/공휴일</span>
+                        <span class="value">12:00 - 18:00</span>
+                    </li>
+                    <li>
+                        <span class="label">마지막 접수</span>
+                        <span class="value">마감 1시간 전</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="info-card">
+                <h2>💰 가격 안내</h2>
+                <ul>
+                    <li>
+                        <span class="label">스웨디시 (60분)</span>
+                        <span class="price-tag">₩70,000</span>
+                    </li>
+                    <li>
+                        <span class="label">림프 케어 (60분)</span>
+                        <span class="price-tag">₩75,000</span>
+                    </li>
+                    <li>
+                        <span class="label">스포츠 마사지 (60분)</span>
+                        <span class="price-tag">₩80,000</span>
+                    </li>
+                    <li>
+                        <span class="label">스웨디시+림프 (90분)</span>
+                        <span class="price-tag">₩110,000</span>
+                    </li>
+                    <li>
+                        <span class="label">전신+스포츠 (90분)</span>
+                        <span class="price-tag">₩120,000</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="info-card">
+                <h2>📋 준비물 & 유의사항</h2>
+                <ul>
+                    <li>
+                        <span class="label">준비물</span>
+                        <span class="value">편안한 복장, 수건은 제공</span>
+                    </li>
+                    <li>
+                        <span class="label">도착 시간</span>
+                        <span class="value">예약 시간 10분 전</span>
+                    </li>
+                    <li>
+                        <span class="label">취소 규정</span>
+                        <span class="value">2시간 전 무료 취소</span>
+                    </li>
+                    <li>
+                        <span class="label">샤워 시설</span>
+                        <span class="value">개인 샤워실 완비</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="faq-section">
+            <h2>자주 묻는 질문</h2>
+            <div class="faq-item">
+                <h3>Q: 예약은 어떻게 하나요?</h3>
+                <p>A: 전화나 카카오톡으로 예약 가능해요. 평균 30분 전에만 연락 주시면 바로 준비해드려요. 점심시간이 특히 바쁘니까 미리 예약하시는 걸 추천드려요!</p>
+            </div>
+            <div class="faq-item">
+                <h3>Q: 첫 방문인데 어떤 코스가 좋을까요?</h3>
+                <p>A: 스트레스 많이 받으셨다면 스웨디시로 시작해보세요. 몸이 자주 붓는 편이면 림프 케어가 진짜 꿀이에요. 둘 다 받고 싶으시면 90분 패키지가 딱이에요.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Q: 남성/여성 구분이 있나요?</h3>
+                <p>A: 성별 구분 없이 누구나 이용 가능해요. 관리사분들도 남녀 모두 계셔서 원하시는 분으로 배정해드려요.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Q: 여의도 마사지 링크만의 특별한 점이 뭔가요?</h3>
+                <p>A: 직장인들이 진짜 힐링하는 곳이에요. 점심시간에 와서 60분만 받아도 개운함이 확 달라요. 그리고 가격도 합리적이라 부담 없이 자주 올 수 있어요.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Q: 주차는 어떻게 하나요?</h3>
+                <p>A: 건물 지하에 주차 가능하고, 2시간 무료로 제공해드려요. 주차장이 좁은 편이라 차가 크시면 근처 공영주차장도 추천드려요.</p>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <h2>지금 바로 예약하세요</h2>
+            <p>여의도 마사지 링크에서 진짜 힐링을 경험해보세요.<br>직장인들이 인정한 여의도 마사지, 예약은 간편하게 전화 한 통이면 끝!</p>
+            <a href="tel:010
+</body>
+</html>
