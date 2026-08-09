@@ -1,398 +1,396 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>여의도 마사지 링크 블로그 | 진짜 힐링 이야기</title>
-  <meta name="description" content="여의도 마사지 링크 블로그에 오신 걸 환영합니다. 직장인의 현실적인 피로 관리법, 스웨디시와 림프 케어의 차이, 그리고 내돈내산 후기까지 솔직하게 공유합니다.">
-  <meta name="keywords" content="여의도 마사지, 여의도 마사지 링크, 여의도 스웨디시 후기, 여의도 림프 케어, 직장인 힐링, 마사지 블로그">
-  <meta name="bpaas-design-system" content="editorial-apple">
-  <meta name="bpaas-design-theme" content="kr-mono-chrome">
-  <link rel="canonical" href="https://yeouido-care-guide.program-school.online/blog.html">
-  <meta property="og:title" content="여의도 마사지 링크 블로그 | 진짜 힐링 이야기">
-  <meta property="og:description" content="여의도 마사지 링크 블로그에 오신 걸 환영합니다. 직장인의 현실적인 피로 관리법, 스웨디시와 림프 케어의 차이, 그리고 내돈내산 후기까지 솔직하게 공유합니다.">
-  <meta property="og:image" content="https://t3b07-yd-massage-link-2.vercel.app/og-image.jpg">
-  <meta property="og:url" content="https://yeouido-care-guide.program-school.online/blog.html">
-  <meta name="twitter:card" content="summary">
-  <style>
-    *, *::before, *::after {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    html {
-      font-size: 16px;
-      scroll-behavior: smooth;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      background-color: #f5f5f7;
-      color: #1d1d1f;
-      line-height: 1.6;
-      padding-top: 72px;
-    }
-    a {
-      color: #0071e3;
-      text-decoration: none;
-      transition: color 0.2s ease;
-    }
-    a:hover {
-      color: #003566;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-    }
-    .container {
-      max-width: 1068px;
-      margin: 0 auto;
-      padding: 0 24px;
-    }
-    header {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      background: rgba(255, 255, 255, 0.92);
-      backdrop-filter: blur(18px);
-      -webkit-backdrop-filter: blur(18px);
-      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-      z-index: 100;
-      height: 72px;
-    }
-    .header-inner {
-      max-width: 1068px;
-      margin: 0 auto;
-      padding: 0 24px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      height: 100%;
-    }
-    .logo {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 1.2rem;
-      font-weight: 600;
-      letter-spacing: -0.02em;
-      color: #1d1d1f;
-    }
-    .logo span {
-      background: #1d1d1f;
-      color: #fff;
-      padding: 4px 12px;
-      border-radius: 20px;
-      font-size: 0.75rem;
-      font-weight: 500;
-      margin-left: 6px;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 28px;
-      align-items: center;
-    }
-    nav a {
-      font-size: 0.9rem;
-      font-weight: 500;
-      color: #1d1d1f;
-      padding: 6px 0;
-      border-bottom: 2px solid transparent;
-      transition: border-color 0.2s ease, color 0.2s ease;
-    }
-    nav a:hover {
-      color: #0071e3;
-      border-bottom-color: #0071e3;
-    }
-    .hamburger {
-      display: none;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 36px;
-      height: 36px;
-      background: none;
-      border: none;
-      cursor: pointer;
-      gap: 5px;
-      padding: 4px;
-    }
-    .hamburger span {
-      display: block;
-      width: 22px;
-      height: 2px;
-      background: #1d1d1f;
-      border-radius: 2px;
-      transition: all 0.3s ease;
-    }
-    @media (max-width: 768px) {
-      body {
-        padding-top: 64px;
-      }
-      header {
-        height: 64px;
-      }
-      .header-inner {
-        padding: 0 16px;
-      }
-      nav ul {
-        display: none;
-        position: absolute;
-        top: 64px;
-        left: 0;
-        width: 100%;
-        background: rgba(255, 255, 255, 0.98);
-        backdrop-filter: blur(18px);
-        flex-direction: column;
-        gap: 0;
-        padding: 16px 0;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
-      }
-      nav ul.active {
-        display: flex;
-      }
-      nav a {
-        display: block;
-        padding: 14px 24px;
-        font-size: 1rem;
-        border-bottom: none;
-      }
-      nav a:hover {
-        border-bottom: none;
-      }
-      .hamburger {
-        display: flex;
-      }
-      .hamburger.active span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 5px);
-      }
-      .hamburger.active span:nth-child(2) {
-        opacity: 0;
-      }
-      .hamburger.active span:nth-child(3) {
-        transform: rotate(-45deg) translate(5px, -5px);
-      }
-    }
-    .tel-link {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      background: #0071e3;
-      color: #fff !important;
-      padding: 8px 18px;
-      border-radius: 30px;
-      font-size: 0.9rem;
-      font-weight: 600;
-      transition: background 0.2s ease, transform 0.2s ease;
-    }
-    .tel-link:hover {
-      background: #003566;
-      color: #fff !important;
-      transform: scale(1.02);
-    }
-    @media (max-width: 768px) {
-      .tel-link {
-        margin: 12px 24px;
-        justify-content: center;
-      }
-    }
-    main {
-      padding: 48px 0 80px;
-    }
-    .blog-header {
-      text-align: center;
-      margin-bottom: 48px;
-    }
-    .blog-header h1 {
-      font-size: 2.4rem;
-      font-weight: 700;
-      letter-spacing: -0.03em;
-      line-height: 1.2;
-      margin-bottom: 16px;
-      color: #1d1d1f;
-    }
-    .blog-header p {
-      font-size: 1.1rem;
-      color: #6e6e73;
-      max-width: 640px;
-      margin: 0 auto;
-    }
-    .blog-post {
-      background: #ffffff;
-      border-radius: 20px;
-      padding: 40px 48px;
-      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
-      margin-bottom: 40px;
-    }
-    .blog-post .meta {
-      display: flex;
-      gap: 16px;
-      font-size: 0.85rem;
-      color: #8e8e93;
-      margin-bottom: 20px;
-      flex-wrap: wrap;
-    }
-    .blog-post .meta span {
-      display: flex;
-      align-items: center;
-      gap: 4px;
-    }
-    .blog-post h2 {
-      font-size: 1.8rem;
-      font-weight: 700;
-      letter-spacing: -0.02em;
-      line-height: 1.3;
-      margin-bottom: 20px;
-      color: #1d1d1f;
-    }
-    .blog-post h3 {
-      font-size: 1.3rem;
-      font-weight: 600;
-      margin-top: 32px;
-      margin-bottom: 12px;
-      color: #1d1d1f;
-    }
-    .blog-post p {
-      margin-bottom: 18px;
-      color: #3a3a3c;
-      font-size: 1.05rem;
-    }
-    .blog-post .highlight-box {
-      background: #f5f5f7;
-      border-radius: 16px;
-      padding: 24px 28px;
-      margin: 24px 0;
-      border-left: 4px solid #0071e3;
-    }
-    .blog-post .highlight-box p {
-      margin-bottom: 0;
-      font-size: 1rem;
-    }
-    .blog-post ul {
-      margin: 16px 0 24px 24px;
-      color: #3a3a3c;
-    }
-    .blog-post ul li {
-      margin-bottom: 10px;
-      font-size: 1.05rem;
-    }
-    .blog-post .cta-inline {
-      background: #1d1d1f;
-      color: #fff;
-      padding: 28px 32px;
-      border-radius: 16px;
-      margin-top: 32px;
-      text-align: center;
-    }
-    .blog-post .cta-inline p {
-      color: #f5f5f7;
-      font-size: 1.1rem;
-      margin-bottom: 12px;
-    }
-    .blog-post .cta-inline a {
-      background: #0071e3;
-      color: #fff;
-      padding: 12px 28px;
-      border-radius: 30px;
-      font-weight: 600;
-      display: inline-block;
-      transition: background 0.2s ease;
-    }
-    .blog-post .cta-inline a:hover {
-      background: #003566;
-    }
-    @media (max-width: 768px) {
-      .blog-header h1 {
-        font-size: 1.8rem;
-      }
-      .blog-post {
-        padding: 28px 20px;
-      }
-      .blog-post h2 {
-        font-size: 1.4rem;
-      }
-    }
-    footer {
-      background: #f5f5f7;
-      border-top: 1px solid rgba(0, 0, 0, 0.06);
-      padding: 32px 0;
-      text-align: center;
-      font-size: 0.85rem;
-      color: #8e8e93;
-    }
-    footer a {
-      color: #6e6e73;
-    }
-    footer a:hover {
-      color: #1d1d1f;
-    }
-  </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>여의도 마사지 링크 블로그 | 진짜 힐링 이야기</title>
+ <meta name="description" content="여의도 마사지 링크 블로그에 오신 걸 환영합니다. 직장인의 현실적인 피로 관리법, 스웨디시와 림프 케어의 차이, 그리고 내돈내산 후기까지 솔직하게 공유합니다.">
+ <meta name="keywords" content="여의도 마사지, 여의도 마사지 링크, 여의도 스웨디시 후기, 여의도 림프 케어, 직장인 힐링, 마사지 블로그">
+ <link rel="canonical" href="https://yeouido-care-guide.program-school.online/blog.html">
+ <meta property="og:title" content="여의도 마사지 링크 블로그 | 진짜 힐링 이야기">
+ <meta property="og:description" content="여의도 마사지 링크 블로그에 오신 걸 환영합니다. 직장인의 현실적인 피로 관리법, 스웨디시와 림프 케어의 차이, 그리고 내돈내산 후기까지 솔직하게 공유합니다.">
+ <meta property="og:image" content="https://t3b07-yd-massage-link-2.vercel.app/og-image.jpg">
+ <meta property="og:url" content="https://yeouido-care-guide.program-school.online/blog.html">
+ <meta name="twitter:card" content="summary">
+ <style>
+ *, *::before, *::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ html {
+ font-size: 16px;
+ scroll-behavior: smooth;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ }
+ body {
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+ background-color: #f5f5f7;
+ color: #1d1d1f;
+ line-height: 1.6;
+ padding-top: 72px;
+ }
+ a {
+ color: #0071e3;
+ text-decoration: none;
+ transition: color 0.2s ease;
+ }
+ a:hover {
+ color: #003566;
+ }
+ img {
+ max-width: 100%;
+ height: auto;
+ display: block;
+ }
+ .container {
+ max-width: 1068px;
+ margin: 0 auto;
+ padding: 0 24px;
+ }
+ header {
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ background: rgba(255, 255, 255, 0.92);
+ backdrop-filter: blur(18px);
+ -webkit-backdrop-filter: blur(18px);
+ border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+ z-index: 100;
+ height: 72px;
+ }
+ .header-inner {
+ max-width: 1068px;
+ margin: 0 auto;
+ padding: 0 24px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ height: 100%;
+ }
+ .logo {
+ display: flex;
+ align-items: center;
+ gap: 8px;
+ font-size: 1.2rem;
+ font-weight: 600;
+ letter-spacing: -0.02em;
+ color: #1d1d1f;
+ }
+ .logo span {
+ background: #1d1d1f;
+ color: #fff;
+ padding: 4px 12px;
+ border-radius: 20px;
+ font-size: 0.75rem;
+ font-weight: 500;
+ margin-left: 6px;
+ }
+ nav ul {
+ list-style: none;
+ display: flex;
+ gap: 28px;
+ align-items: center;
+ }
+ nav a {
+ font-size: 0.9rem;
+ font-weight: 500;
+ color: #1d1d1f;
+ padding: 6px 0;
+ border-bottom: 2px solid transparent;
+ transition: border-color 0.2s ease, color 0.2s ease;
+ }
+ nav a:hover {
+ color: #0071e3;
+ border-bottom-color: #0071e3;
+ }
+ .hamburger {
+ display: none;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 36px;
+ height: 36px;
+ background: none;
+ border: none;
+ cursor: pointer;
+ gap: 5px;
+ padding: 4px;
+ }
+ .hamburger span {
+ display: block;
+ width: 22px;
+ height: 2px;
+ background: #1d1d1f;
+ border-radius: 2px;
+ transition: all 0.3s ease;
+ }
+ @media (max-width: 768px) {
+ body {
+ padding-top: 64px;
+ }
+ header {
+ height: 64px;
+ }
+ .header-inner {
+ padding: 0 16px;
+ }
+ nav ul {
+ display: none;
+ position: absolute;
+ top: 64px;
+ left: 0;
+ width: 100%;
+ background: rgba(255, 255, 255, 0.98);
+ backdrop-filter: blur(18px);
+ flex-direction: column;
+ gap: 0;
+ padding: 16px 0;
+ border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+ box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+ }
+ nav ul.active {
+ display: flex;
+ }
+ nav a {
+ display: block;
+ padding: 14px 24px;
+ font-size: 1rem;
+ border-bottom: none;
+ }
+ nav a:hover {
+ border-bottom: none;
+ }
+ .hamburger {
+ display: flex;
+ }
+ .hamburger.active span:nth-child(1) {
+ transform: rotate(45deg) translate(5px, 5px);
+ }
+ .hamburger.active span:nth-child(2) {
+ opacity: 0;
+ }
+ .hamburger.active span:nth-child(3) {
+ transform: rotate(-45deg) translate(5px, -5px);
+ }
+ }
+ .tel-link {
+ display: inline-flex;
+ align-items: center;
+ gap: 6px;
+ background: #0071e3;
+ color: #fff !important;
+ padding: 8px 18px;
+ border-radius: 30px;
+ font-size: 0.9rem;
+ font-weight: 600;
+ transition: background 0.2s ease, transform 0.2s ease;
+ }
+ .tel-link:hover {
+ background: #003566;
+ color: #fff !important;
+ transform: scale(1.02);
+ }
+ @media (max-width: 768px) {
+ .tel-link {
+ margin: 12px 24px;
+ justify-content: center;
+ }
+ }
+ main {
+ padding: 48px 0 80px;
+ }
+ .blog-header {
+ text-align: center;
+ margin-bottom: 48px;
+ }
+ .blog-header h1 {
+ font-size: 2.4rem;
+ font-weight: 700;
+ letter-spacing: -0.03em;
+ line-height: 1.2;
+ margin-bottom: 16px;
+ color: #1d1d1f;
+ }
+ .blog-header p {
+ font-size: 1.1rem;
+ color: #6e6e73;
+ max-width: 640px;
+ margin: 0 auto;
+ }
+ .blog-post {
+ background: #ffffff;
+ border-radius: 20px;
+ padding: 40px 48px;
+ box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+ margin-bottom: 40px;
+ }
+ .blog-post .meta {
+ display: flex;
+ gap: 16px;
+ font-size: 0.85rem;
+ color: #8e8e93;
+ margin-bottom: 20px;
+ flex-wrap: wrap;
+ }
+ .blog-post .meta span {
+ display: flex;
+ align-items: center;
+ gap: 4px;
+ }
+ .blog-post h2 {
+ font-size: 1.8rem;
+ font-weight: 700;
+ letter-spacing: -0.02em;
+ line-height: 1.3;
+ margin-bottom: 20px;
+ color: #1d1d1f;
+ }
+ .blog-post h3 {
+ font-size: 1.3rem;
+ font-weight: 600;
+ margin-top: 32px;
+ margin-bottom: 12px;
+ color: #1d1d1f;
+ }
+ .blog-post p {
+ margin-bottom: 18px;
+ color: #3a3a3c;
+ font-size: 1.05rem;
+ }
+ .blog-post .highlight-box {
+ background: #f5f5f7;
+ border-radius: 16px;
+ padding: 24px 28px;
+ margin: 24px 0;
+ border-left: 4px solid #0071e3;
+ }
+ .blog-post .highlight-box p {
+ margin-bottom: 0;
+ font-size: 1rem;
+ }
+ .blog-post ul {
+ margin: 16px 0 24px 24px;
+ color: #3a3a3c;
+ }
+ .blog-post ul li {
+ margin-bottom: 10px;
+ font-size: 1.05rem;
+ }
+ .blog-post .cta-inline {
+ background: #1d1d1f;
+ color: #fff;
+ padding: 28px 32px;
+ border-radius: 16px;
+ margin-top: 32px;
+ text-align: center;
+ }
+ .blog-post .cta-inline p {
+ color: #f5f5f7;
+ font-size: 1.1rem;
+ margin-bottom: 12px;
+ }
+ .blog-post .cta-inline a {
+ background: #0071e3;
+ color: #fff;
+ padding: 12px 28px;
+ border-radius: 30px;
+ font-weight: 600;
+ display: inline-block;
+ transition: background 0.2s ease;
+ }
+ .blog-post .cta-inline a:hover {
+ background: #003566;
+ }
+ @media (max-width: 768px) {
+ .blog-header h1 {
+ font-size: 1.8rem;
+ }
+ .blog-post {
+ padding: 28px 20px;
+ }
+ .blog-post h2 {
+ font-size: 1.4rem;
+ }
+ }
+ footer {
+ background: #f5f5f7;
+ border-top: 1px solid rgba(0, 0, 0, 0.06);
+ padding: 32px 0;
+ text-align: center;
+ font-size: 0.85rem;
+ color: #8e8e93;
+ }
+ footer a {
+ color: #6e6e73;
+ }
+ footer a:hover {
+ color: #1d1d1f;
+ }
+ </style>
   <meta property="og:type" content="website">
 </head>
 <body>
-  <header>
-    <div class="header-inner">
-      <div class="logo">
-        여의도 마사지 링크
-        <span>BLOG</span>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="/">홈</a></li>
-          <li><a href="/blog" style="border-bottom-color: #0071e3; color: #0071e3;">블로그</a></li>
-          <li><a href="/about">소개</a></li>
-          <li><a href="tel:000-0000-0000" class="tel-link">📞 예약하기</a></li>
-        </ul>
-      </nav>
-      <button class="hamburger" aria-label="메뉴 열기">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
-  </header>
+ <header>
+ <div class="header-inner">
+ <div class="logo">
+ 여의도 마사지 링크
+ <span>BLOG</span>
+ </div>
+ <nav>
+ <ul>
+ <li><a href="/">홈</a></li>
+ <li><a href="/blog" style="border-bottom-color: #0071e3; color: #0071e3;">블로그</a></li>
+ <li><a href="/about">소개</a></li>
+ 
+ </ul>
+ </nav>
+ <button class="hamburger" aria-label="메뉴 열기">
+ 
+ 
+ 
+ </button>
+ </div>
+ </header>
 
 <main class="container">
-  <section class="blog-header">
-    <p class="meta">여의도 마사지 · 방문 전 체크리스트</p>
-    <h1>여의도 마사지 방문 전 체크리스트</h1>
-  </section>
+ <section class="blog-header">
+ <p class="meta">여의도 마사지 · 방문 전 체크리스트</p>
+ <h1>여의도 마사지 방문 전 체크리스트</h1>
+ </section>
 
-  <article class="blog-post">
-    <p>여의도에서 마사지 매장을 고를 때는 위치, 운영 시간, 코스 구성 세 가지를 먼저 맞춰보는 것이 좋다. 오피스 밀집 지역 특성상 평일 저녁 시간대는 예약이 몰리는 편이라 아래 체크리스트를 확인한 뒤 연락하면 헛걸음을 줄일 수 있다.</p>
+ <article class="blog-post">
+ <p>여의도에서 마사지 매장을 고를 때는 위치, 운영 시간, 코스 구성 세 가지를 먼저 맞춰보는 것이 좋다. 오피스 밀집 지역 특성상 평일 저녁 시간대는 예약이 몰리는 편이라 아래 체크리스트를 확인한 뒤 연락하면 헛걸음을 줄일 수 있다.</p>
 
-    <div class="highlight-box">
-      <p>체크리스트</p>
-      <ul>
-        <li>희망 방문 요일과 시간대를 먼저 정한다</li>
-        <li>원하는 코스 시간(단시간 / 장시간)을 정한다</li>
-        <li>관리받고 싶은 부위를 구체적으로 정리한다</li>
-        <li>매장에 사전 연락해 예약 가능 여부를 확인한다</li>
-        <li>위치와 이동 경로, 소요 시간을 미리 확인한다</li>
-      </ul>
-    </div>
+ <div class="highlight-box">
+ <p>체크리스트</p>
+ <ul>
+ <li>희망 방문 요일과 시간대를 먼저 정한다</li>
+ <li>원하는 코스 시간(단시간 / 장시간)을 정한다</li>
+ <li>관리받고 싶은 부위를 구체적으로 정리한다</li>
+ <li>매장에 사전 연락해 예약 가능 여부를 확인한다</li>
+ <li>위치와 이동 경로, 소요 시간을 미리 확인한다</li>
+ </ul>
+ </div>
 
-    <p>체크리스트를 미리 정리해두면 매장에 문의할 때 필요한 정보를 빠짐없이 전달할 수 있어 예약 과정이 짧아진다. 특히 코스 시간과 관리 부위는 매장마다 구성이 달라 통화 시 먼저 물어보는 것이 좋다.</p>
+ <p>체크리스트를 미리 정리해두면 매장에 문의할 때 필요한 정보를 빠짐없이 전달할 수 있어 예약 과정이 짧아진다. 특히 코스 시간과 관리 부위는 매장마다 구성이 달라 통화 시 먼저 물어보는 것이 좋다.</p>
 
-    <h2>마사지 종류별로 다른 점</h2>
-    <p>흔히 말하는 코스는 전신 위주의 관리와 특정 부위 중심 관리로 나뉘는 경우가 많다. 시간이 짧으면 특정 부위 위주로, 시간이 길면 전신 위주로 구성되는 것이 일반적이며 정확한 구성은 매장 안내를 따르는 것이 가장 확실하다.</p>
+ <h2>마사지 종류별로 다른 점</h2>
+ <p>흔히 말하는 코스는 전신 위주의 관리와 특정 부위 중심 관리로 나뉘는 경우가 많다. 시간이 짧으면 특정 부위 위주로, 시간이 길면 전신 위주로 구성되는 것이 일반적이며 정확한 구성은 매장 안내를 따르는 것이 가장 확실하다.</p>
 
-    <h2>이용 시 매너와 주의사항</h2>
-    <p>예약 시간을 지키는 것이 가장 기본적인 매너이며, 부득이하게 늦거나 취소해야 할 경우 미리 연락을 남기는 것이 좋다. 관리 중 불편한 부분이 있다면 참지 말고 즉시 관리사에게 알리는 것이 서로에게 도움이 된다.</p>
+ <h2>이용 시 매너와 주의사항</h2>
+ <p>예약 시간을 지키는 것이 가장 기본적인 매너이며, 부득이하게 늦거나 취소해야 할 경우 미리 연락을 남기는 것이 좋다. 관리 중 불편한 부분이 있다면 참지 말고 즉시 관리사에게 알리는 것이 서로에게 도움이 된다.</p>
 
-    <h2>예약 취소·변경 시 참고사항</h2>
-    <p>일정이 바뀌어 예약을 조정해야 한다면 가능한 한 빨리 매장에 알리는 것이 좋다. 임박한 취소는 다음 예약자에게도 영향을 주기 때문에, 변경이 예상되는 시점에 미리 연락해두면 서로 부담이 줄어든다. 여의도 지역은 평일 저녁 예약이 몰리는 편이라 시간 변경이 필요하면 여유를 두고 문의하는 것을 권장한다.</p>
+ <h2>예약 취소·변경 시 참고사항</h2>
+ <p>일정이 바뀌어 예약을 조정해야 한다면 가능한 한 빨리 매장에 알리는 것이 좋다. 임박한 취소는 다음 예약자에게도 영향을 주기 때문에, 변경이 예상되는 시점에 미리 연락해두면 서로 부담이 줄어든다. 여의도 지역은 평일 저녁 예약이 몰리는 편이라 시간 변경이 필요하면 여유를 두고 문의하는 것을 권장한다.</p>
 
-    <div class="cta-inline">
-      <p>여의도 마사지 문의 및 예약</p>
-      <a class="tel-link" href="tel:000-0000-0000">000-0000-0000</a>
-    </div>
-  </article>
+ <div class="cta-inline">
+ <p>여의도 마사지 문의 및 예약</p>
+ 
+ </div>
+ </article>
 </main>
 
 
